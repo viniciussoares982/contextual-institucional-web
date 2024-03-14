@@ -1,8 +1,8 @@
 export default function AnuncioPlataformaSection() {
-
   return (
     <section>
-      <h2>AnuncioPlataformaSection</h2>
+      <p className="font-utopia-std font-black">AnuncioPlataformaSection font-utopiaStd</p>
+      <p className="font-space-grotesk font-bold">AnuncioPlataformaSection font-spaceGrotesk</p>
     </section>
   )
 }
