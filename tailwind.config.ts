@@ -13,6 +13,10 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        'off-white': '#F7F7F7',
+        'contextual-pink': '#F2A9C7',
+      },
     },
     fontFamily: {
       'utopia-std': ['var(--font-utopia-std)'],
