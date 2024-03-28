@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         'off-white': '#F7F7F7',
         'contextual-pink': '#F2A9C7',
+        'dark-gray': '#595959',
       },
     },
     fontFamily: {
