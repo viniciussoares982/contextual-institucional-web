@@ -4,8 +4,8 @@ import Image from 'next/image'
 export default function ConteudosExclusivosSection() {
 
   return (
-    <section className="bg-transparent">
-      <div className="bg-black my-8 rounded-2xl">
+    <section className="bg-transparent relative top-4">
+      <div className="bg-black rounded-2xl">
           <div className="max-w-8xl mx-auto px-7 sm:px-6 md:px-8 flex flex-col justify-end items-center h-full py-9">
             <div>
               <span className="uppercase font-space-grotesk text-sm text-center block mb-12">Resumo breve</span>
