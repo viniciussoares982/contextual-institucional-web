@@ -11,6 +11,10 @@ export default function Interlude() {
           <p className="text-black text-sm font-space-grotesk uppercase pr-16 ">{'//'}</p>
           <p className="text-black text-sm font-space-grotesk uppercase pr-16 tracking-[.2em]">Conteúdo</p>
           <p className="text-black text-sm font-space-grotesk uppercase pr-16">{'//'}</p>
+          <p className="text-black text-sm font-space-grotesk uppercase pr-16 tracking-[.2em]">Curso</p>
+          <p className="text-black text-sm font-space-grotesk uppercase pr-16">{'//'}</p>
+          <p className="text-black text-sm font-space-grotesk uppercase pr-16 tracking-[.2em]">Tecnologia</p>
+          <p className="text-black text-sm font-space-grotesk uppercase pr-16">{'//'}</p>
         </Marquee>
         </div>
       </div>
