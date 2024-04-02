@@ -10,30 +10,12 @@ export default function AnuncioPlataformaSection() {
               <p className="text-black text-xs font-space-grotesk text-center leading-5 uppercase tracking-[.2em]">Resumo breve para <span className="block">atrair o foco</span></p>
               <p className="text-black text-5xl font-space-grotesk text-center leading-10 mt-9">Nome da<span className="text-contextual-pink block">plataforma</span></p>
               <div className="flex justify-center items-center">
-                <div className="relative -top-3">
-                  <Image
-                    src="/macbook.png"
-                    width={232}
-                    height={233}
-                    alt="Imagem de um MacBook"
-                  />
-                </div>
-                <div className="relative -ml-12 top-10 -left-8">
-                  <Image
-                    src="/ipad.png"
-                    width={162}
-                    height={162}
-                    alt="Imagem de um iPad"
-                  />
-                </div>
-                <div className="relative -ml-12 -top-3 -left-4">
-                  <Image
-                    src="/iphone.png"
-                    width={57}
-                    height={100}
-                    alt="Imagem de um iPhone"
-                  />
-                </div>
+                <Image
+                  src="/platform-example-mobile.png"
+                  width={330}
+                  height={254}
+                  alt="Ilustração apresentando a plataforma em diversos dispositivos."
+                />
               </div>
               <div className="w-[317px] h-[87px]">
                 <p className="text-text-gray font-space-grotesk text-center text-base leading-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut tortor scelerisque, tincidunt urna vel, laoreet neque. Fusce vel massa ac nulla commodo bibendum. Ut in augue orci.</p>
