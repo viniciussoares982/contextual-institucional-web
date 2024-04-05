@@ -19,8 +19,8 @@ export default function FaqSection() {
 
   return (
     <section className="bg-off-white">
-      <div className="max-w-8xl mx-auto sm:px-6 md:px-8 justify-start items-center h-full py-9">
-        <h2 className="text-4xl font-utopia-std font-semibold text-center mb-7 mt-8"><span className="text-black">Perguntas</span> <span className="text-contextual-pink">frequentes</span></h2>
+      <div className="max-w-8xl mx-auto sm:px-6 md:px-8 justify-start items-center h-full py-9 md:py-40">
+        <h2 className="text-4xl md:text-7xl tracking-[-2.65px] font-utopia-std font-semibold text-center mb-7 mt-8"><span className="text-black">Perguntas</span> <span className="text-contextual-pink">frequentes</span></h2>
         <FaqComponent faqData={faq} />
       </div>
     </section>
