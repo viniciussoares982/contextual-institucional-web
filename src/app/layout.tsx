@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 
 import { utopiaStd, spaceGrotesk } from '@/app/utils/fonts' 
+import Header from "@/components/layout/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${utopiaStd.variable} ${spaceGrotesk.variable}`}>
       <body >
+        <Header />
         {children}
       </body>
     </html>

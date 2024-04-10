@@ -46,9 +46,11 @@ export default function FootSection() {
                 />
               </div>
           </div>
-          <div className="mb-6 border border-white w-auto"></div>
-          <div>
-            <p className="text-sm font-space-grotesk uppercase mb-1 text-center">Contextual - Todos os direitos reservados</p>
+          <div className='flex'>
+            <div className="mb-6 border border-white w-auto"></div>
+            <div>
+              <p className="text-sm font-space-grotesk uppercase mb-1 text-center">Contextual - Todos os direitos reservados</p>
+            </div>
           </div>
         </div>
       </div>
