@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-import { utopiaStd, spaceGrotesk } from '@/app/utils/fonts' 
+import { utopiaStd, spaceGrotesk } from "@/app/utils/fonts";
 import Header from "@/components/layout/Header";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -18,8 +18,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${utopiaStd.variable} ${spaceGrotesk.variable}`}>
-      <body >
+    <html
+      lang="en"
+      className={`${utopiaStd.variable} ${spaceGrotesk.variable}`}
+    >
+      <body>
         <Header />
         {children}
       </body>
