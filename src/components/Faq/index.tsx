@@ -1,14 +1,14 @@
-import { slugify } from "@/app/utils/utils";
+import { slugify } from '@/app/utils/utils'
 
-import Question from "./question";
+import Question from './question'
 
 interface IFaqStructure {
-  question: string;
-  answer: string;
+  question: string
+  answer: string
 }
 
 interface IFaqComponent {
-  faqData: IFaqStructure[];
+  faqData: IFaqStructure[]
 }
 
 export default function FaqComponent({ faqData }: IFaqComponent) {
@@ -18,5 +18,5 @@ export default function FaqComponent({ faqData }: IFaqComponent) {
         <Question key={slugify(faq.question)} question={faq} order={index} />
       ))}
     </div>
-  );
+  )
 }

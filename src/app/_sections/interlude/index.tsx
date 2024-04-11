@@ -1,4 +1,4 @@
-import Marquee from "react-fast-marquee";
+import Marquee from 'react-fast-marquee'
 
 export default function Interlude() {
   return (
@@ -10,29 +10,29 @@ export default function Interlude() {
               Psicologia
             </p>
             <p className="pr-16 font-space-grotesk text-sm uppercase text-black md:pr-28 md:text-2xl">
-              {"//"}
+              {'//'}
             </p>
             <p className="pr-16 font-space-grotesk text-sm uppercase tracking-[.2em] text-black md:pr-28 md:text-2xl">
               Conteúdo
             </p>
             <p className="pr-16 font-space-grotesk text-sm uppercase text-black md:pr-28 md:text-2xl">
-              {"//"}
+              {'//'}
             </p>
             <p className="pr-16 font-space-grotesk text-sm uppercase tracking-[.2em] text-black md:pr-28 md:text-2xl">
               Curso
             </p>
             <p className="pr-16 font-space-grotesk text-sm uppercase text-black md:pr-28 md:text-2xl">
-              {"//"}
+              {'//'}
             </p>
             <p className="pr-16 font-space-grotesk text-sm uppercase tracking-[.2em] text-black md:pr-28 md:text-2xl">
               Tecnologia
             </p>
             <p className="pr-16 font-space-grotesk text-sm uppercase text-black md:pr-28 md:text-2xl">
-              {"//"}
+              {'//'}
             </p>
           </Marquee>
         </div>
       </div>
     </section>
-  );
+  )
 }

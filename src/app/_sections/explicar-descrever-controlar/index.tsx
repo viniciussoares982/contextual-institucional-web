@@ -5,7 +5,7 @@ export default function ExplicarDescreverControlarSection() {
         className="rounded-2xl"
         style={{
           background:
-            "linear-gradient(43.93deg, #AEA0FF 15.63%, #B6A1F7 17.47%, #CCA4E5 23.94%, #DDA6D7 32.26%, #E9A7CE 42.42%, #F0A8C8 56.28%, #F2A9C7 96.01%)",
+            'linear-gradient(43.93deg, #AEA0FF 15.63%, #B6A1F7 17.47%, #CCA4E5 23.94%, #DDA6D7 32.26%, #E9A7CE 42.42%, #F0A8C8 56.28%, #F2A9C7 96.01%)',
         }}
       >
         <div className="max-w-8xl mx-auto flex h-full flex-col items-center justify-start px-7 py-9 sm:px-6 md:px-8 md:py-16">
@@ -19,11 +19,11 @@ export default function ExplicarDescreverControlarSection() {
             </h2>
             <p className="text-center font-space-grotesk text-xs uppercase tracking-[.2em] text-black">
               Pellentesque porta mi vel
-              <span className="block">quam rhoncus</span>{" "}
+              <span className="block">quam rhoncus</span>{' '}
             </p>
           </div>
         </div>
       </div>
     </section>
-  );
+  )
 }

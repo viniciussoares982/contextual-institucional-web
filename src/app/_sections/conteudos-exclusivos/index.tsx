@@ -1,5 +1,5 @@
-import Marquee from "react-fast-marquee";
-import Image from "next/image";
+import Marquee from 'react-fast-marquee'
+import Image from 'next/image'
 
 export default function ConteudosExclusivosSection() {
   return (
@@ -13,7 +13,7 @@ export default function ConteudosExclusivosSection() {
             <h2 className="mb-7 text-center font-space-grotesk text-4xl font-normal md:text-7xl">
               <span className="block text-contextual-pink md:inline">
                 Conteúdos
-              </span>{" "}
+              </span>{' '}
               <span className="block text-off-white md:inline">exclusivos</span>
             </h2>
             <p className="h-20 w-80 text-center font-space-grotesk text-sm font-normal leading-6 text-off-white md:w-[740px] md:text-xl md:leading-7">
@@ -89,5 +89,5 @@ export default function ConteudosExclusivosSection() {
         </div>
       </div>
     </section>
-  );
+  )
 }

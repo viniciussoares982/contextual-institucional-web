@@ -11,9 +11,9 @@ export default function VideoHomeSection() {
           <div className="h-64 w-full bg-dark-gray md:h-[545px] md:w-[920px]"></div>
           <div className="mt-14">
             <p className="text-center font-space-grotesk text-xs leading-5 text-black md:mb-36 md:w-[810px] md:text-xl">
-              Profissionalize e organize os seus atendimentos, ganhe{" "}
+              Profissionalize e organize os seus atendimentos, ganhe{' '}
               <span className="block md:inline">
-                mais com melhor qualidade de vida e segurança na -{" "}
+                mais com melhor qualidade de vida e segurança na -{' '}
               </span>
               (criar texto com promessa de transformação)
             </p>
@@ -21,5 +21,5 @@ export default function VideoHomeSection() {
         </div>
       </div>
     </section>
-  );
+  )
 }

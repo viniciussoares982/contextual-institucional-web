@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 export default function AnuncioPlataformaSection() {
   return (
@@ -9,11 +9,11 @@ export default function AnuncioPlataformaSection() {
             <div className="flex h-full flex-col items-center justify-start px-6 py-9 xl:px-12 xl:py-24">
               <div>
                 <p className="text-center font-space-grotesk text-xs uppercase leading-5 tracking-[.2em] text-black md:text-base">
-                  Resumo breve para{" "}
+                  Resumo breve para{' '}
                   <span className="block md:inline">atrair o foco</span>
                 </p>
                 <p className="mt-9 text-center font-space-grotesk text-5xl leading-10 text-black md:mt-0 md:text-6xl">
-                  Nome da{" "}
+                  Nome da{' '}
                   <span className="block text-contextual-pink md:inline">
                     plataforma
                   </span>
@@ -52,7 +52,7 @@ export default function AnuncioPlataformaSection() {
                     R$180,00
                   </p>
                   <p className="mt-1 text-center font-utopia-std text-sm uppercase leading-4 tracking-[.1em] text-black md:text-left">
-                    ou{" "}
+                    ou{' '}
                     <span className="text-contextual-pink">12x de R$15,00</span>
                   </p>
                   <div className="flex justify-center md:justify-start">
@@ -67,5 +67,5 @@ export default function AnuncioPlataformaSection() {
         </div>
       </div>
     </section>
-  );
+  )
 }
