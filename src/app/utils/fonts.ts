@@ -6,8 +6,8 @@ export const utopiaStd = localFont({
   src: [
     {
       path: './utopia-std/utopia-std-regular.otf',
-    }
-  ]
+    },
+  ],
 })
 
 export const spaceGrotesk = localFont({
@@ -15,7 +15,6 @@ export const spaceGrotesk = localFont({
   src: [
     {
       path: './space-grotesk/space-grotesk-variablefont_wght.ttf',
-
-    }
-  ]
+    },
+  ],
 })

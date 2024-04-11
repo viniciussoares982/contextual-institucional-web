@@ -4,39 +4,61 @@ export default function AnuncioPlataformaSection() {
   return (
     <section className="bg-off-white">
       <div>
-        <div className="max-w-8xl mx-auto px-7 sm:px-6 md:px-8 xl:p-48 flex flex-col justify-start items-center h-full py-9">
-          <div className="w-full border border-black rounded-3xl mt-8 relative">
-            <div className="px-6 py-9 xl:px-12 xl:py-24 h-full flex flex-col justify-start items-center">
+        <div className="max-w-8xl mx-auto flex h-full flex-col items-center justify-start px-7 py-9 sm:px-6 md:px-8 xl:p-48">
+          <div className="relative mt-8 w-full rounded-3xl border border-black">
+            <div className="flex h-full flex-col items-center justify-start px-6 py-9 xl:px-12 xl:py-24">
               <div>
-                <p className="text-black text-xs md:text-base font-space-grotesk text-center leading-5 uppercase tracking-[.2em]">Resumo breve para <span className="block md:inline">atrair o foco</span></p>
-                <p className="text-black text-5xl md:text-6xl font-space-grotesk text-center leading-10 mt-9 md:mt-0">Nome da <span className="text-contextual-pink block md:inline">plataforma</span></p>
+                <p className="text-center font-space-grotesk text-xs uppercase leading-5 tracking-[.2em] text-black md:text-base">
+                  Resumo breve para{' '}
+                  <span className="block md:inline">atrair o foco</span>
+                </p>
+                <p className="mt-9 text-center font-space-grotesk text-5xl leading-10 text-black md:mt-0 md:text-6xl">
+                  Nome da{' '}
+                  <span className="block text-contextual-pink md:inline">
+                    plataforma
+                  </span>
+                </p>
               </div>
-              <div className='md:grid md:grid-cols-12 md:mt-16'>
-                <div className="flex justify-center items-center md:col-span-7">
+              <div className="md:mt-16 md:grid md:grid-cols-12">
+                <div className="flex items-center justify-center md:col-span-7">
                   <Image
                     src="/platform-example-mobile.png"
                     width={330}
                     height={254}
-                    className='md:hidden'
+                    className="md:hidden"
                     alt="Ilustração apresentando a plataforma em diversos dispositivos."
                   />
                   <Image
                     src="/platform-example-mobile.png"
                     width={468}
                     height={360}
-                    className='hidden md:block'
+                    className="hidden md:block"
                     alt="Ilustração apresentando a plataforma em diversos dispositivos."
                   />
                 </div>
-                <div className='md:col-span-4'>
+                <div className="md:col-span-4">
                   <div>
-                    <p className="text-text-gray font-space-grotesk text-center md:text-left text-base leading-[18px] md:text-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut tortor scelerisque, tincidunt urna vel, laoreet neque. Fusce vel massa ac nulla commodo bibendum. Ut in augue orci.</p>
+                    <p className="text-center font-space-grotesk text-base leading-[18px] text-text-gray md:text-left md:text-xl">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Vestibulum ut tortor scelerisque, tincidunt urna vel,
+                      laoreet neque. Fusce vel massa ac nulla commodo bibendum.
+                      Ut in augue orci.
+                    </p>
                   </div>
-                  <p className="text-text-gray font-space-grotesk text-center md:text-left uppercase mt-8 text-sm leading-4 tracking-[.1em]">de R$234,00 por:</p>
-                  <p className="text-contextual-pink font-utopia-std text-center md:text-left font-bold uppercase mt-2 text-5xl leading-[48px] tracking-[.0.5em]">R$180,00</p>
-                  <p className="text-black font-utopia-std text-center md:text-left uppercase mt-1 text-sm leading-4 tracking-[.1em]">ou <span className="text-contextual-pink">12x de R$15,00</span></p>
-                  <div className='flex justify-center md:justify-start'>
-                    <a className="bg-contextual-pink text-black font-space-grotesk w-52 h-8 mt-6 flex justify-center items-center text-center md:text-left border border-none rounded-md uppercase text-xs tracking-[.2em]">adquira agora</a>
+                  <p className="mt-8 text-center font-space-grotesk text-sm uppercase leading-4 tracking-[.1em] text-text-gray md:text-left">
+                    de R$234,00 por:
+                  </p>
+                  <p className="mt-2 text-center font-utopia-std text-5xl font-bold uppercase leading-[48px] tracking-[.0.5em] text-contextual-pink md:text-left">
+                    R$180,00
+                  </p>
+                  <p className="mt-1 text-center font-utopia-std text-sm uppercase leading-4 tracking-[.1em] text-black md:text-left">
+                    ou{' '}
+                    <span className="text-contextual-pink">12x de R$15,00</span>
+                  </p>
+                  <div className="flex justify-center md:justify-start">
+                    <a className="mt-6 flex h-8 w-52 items-center justify-center rounded-md border border-none bg-contextual-pink text-center font-space-grotesk text-xs uppercase tracking-[.2em] text-black md:text-left">
+                      adquira agora
+                    </a>
                   </div>
                 </div>
               </div>
