@@ -8,7 +8,7 @@ import FaqSection from "./_sections/faq";
 import FootSection from "./_sections/foot";
 export default function HomePage() {
   return (
-    <main>
+    <main className="bg-off-white">
       <HeroSection />
       <ExplicarDescreverControlarSection />
       <VideoHomeSection />

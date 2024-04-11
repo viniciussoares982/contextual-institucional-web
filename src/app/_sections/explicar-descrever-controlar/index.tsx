@@ -1,7 +1,7 @@
 export default function ExplicarDescreverControlarSection() {
 
   return (
-    <section className="bg-transparent">
+    <section className="bg-transparent relative top-[-13px]">
       <div className="rounded-2xl" style={{background: 'linear-gradient(43.93deg, #AEA0FF 15.63%, #B6A1F7 17.47%, #CCA4E5 23.94%, #DDA6D7 32.26%, #E9A7CE 42.42%, #F0A8C8 56.28%, #F2A9C7 96.01%)'}}>
         <div className="max-w-8xl mx-auto px-7 sm:px-6 md:px-8 flex flex-col justify-start items-center h-full py-9 md:py-16">
           <div className="">
