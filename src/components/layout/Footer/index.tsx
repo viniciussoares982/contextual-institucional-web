@@ -1,6 +1,6 @@
 import Image from 'next/image'
 
-export default function FootSection() {
+export default function Footer() {
   return (
     <section className="bg-contextual-pink">
       <div className="h-[466px]">

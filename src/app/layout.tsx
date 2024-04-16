@@ -3,6 +3,7 @@ import './globals.css'
 
 import { utopiaStd, spaceGrotesk } from '@/app/utils/fonts'
 import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -22,6 +23,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
