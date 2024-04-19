@@ -5,7 +5,6 @@ import Interlude from './_sections/interlude'
 import AnuncioPlataformaSection from './_sections/anuncio-plataforma'
 import ConteudosExclusivosSection from './_sections/conteudos-exclusivos'
 import FaqSection from './_sections/faq'
-import FootSection from './_sections/foot'
 
 export default function HomePage() {
   return (
@@ -17,7 +16,6 @@ export default function HomePage() {
       <AnuncioPlataformaSection />
       <ConteudosExclusivosSection />
       <FaqSection />
-      <FootSection />
     </main>
   )
 }
