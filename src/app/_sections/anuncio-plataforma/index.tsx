@@ -9,14 +9,11 @@ export default function AnuncioPlataformaSection() {
             <div className="flex h-full flex-col items-center justify-start px-6 py-9 xl:px-12 xl:py-24">
               <div>
                 <p className="text-center font-space-grotesk text-xs uppercase leading-5 tracking-[.2em] text-black md:text-base">
-                  Resumo breve para{' '}
-                  <span className="block md:inline">atrair o foco</span>
+                  Dê o primeiro passo agora
                 </p>
                 <p className="mt-9 text-center font-space-grotesk text-5xl leading-10 text-black md:mt-0 md:text-6xl">
-                  Nome da{' '}
-                  <span className="block text-contextual-pink md:inline">
-                    plataforma
-                  </span>
+                  <span className="text-contextual-pink">Caminho</span> do{' '}
+                  <span className="block text-black md:inline">Psicólogo</span>
                 </p>
               </div>
               <div className="md:mt-16 md:grid md:grid-cols-12">
@@ -39,10 +36,9 @@ export default function AnuncioPlataformaSection() {
                 <div className="md:col-span-4">
                   <div>
                     <p className="text-center font-space-grotesk text-base leading-[18px] text-text-gray md:text-left md:text-xl">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Vestibulum ut tortor scelerisque, tincidunt urna vel,
-                      laoreet neque. Fusce vel massa ac nulla commodo bibendum.
-                      Ut in augue orci.
+                      Facilite seu trabalho e “compre tempo” - adquira nossos
+                      com uma plataforma simples como o Notion, ensino você a
+                      poupar o recurso mais valioso de todos nós: o tempo.
                     </p>
                   </div>
                   <p className="mt-8 text-center font-space-grotesk text-sm uppercase leading-4 tracking-[.1em] text-text-gray md:text-left">
@@ -57,7 +53,7 @@ export default function AnuncioPlataformaSection() {
                   </p>
                   <div className="flex justify-center md:justify-start">
                     <a className="mt-6 flex h-8 w-52 items-center justify-center rounded-md border border-none bg-contextual-pink text-center font-space-grotesk text-xs uppercase tracking-[.2em] text-black md:text-left">
-                      adquira agora
+                      Entre na comunidade
                     </a>
                   </div>
                 </div>
