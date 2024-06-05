@@ -8,7 +8,7 @@ export default function ConteudosExclusivosSection() {
         <div className="max-w-8xl mx-auto flex h-full flex-col items-center justify-end px-7 py-9 sm:px-6 md:px-8 md:py-24">
           <div>
             <span className="mb-12 block text-center font-space-grotesk text-sm uppercase tracking-[.2em] md:mb-3 md:text-lg">
-              Resumo breve
+              O que você recebe
             </span>
             <h2 className="mb-7 text-center font-space-grotesk text-4xl font-normal md:text-7xl">
               <span className="block text-contextual-pink md:inline">
@@ -83,7 +83,7 @@ export default function ConteudosExclusivosSection() {
           </div>
           <div>
             <a className="mb-4 flex h-8 w-52 items-center justify-center rounded-md bg-contextual-pink text-center font-space-grotesk text-xs uppercase tracking-[.2em] text-black md:mb-0 md:h-14 md:w-72 md:text-lg">
-              Ver Produtos
+              Entre na Comunidade
             </a>
           </div>
         </div>
