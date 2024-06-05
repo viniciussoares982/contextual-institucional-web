@@ -44,7 +44,7 @@ export default function AnuncioPlataformaSection() {
                   <p className="mt-8 text-center font-space-grotesk text-sm uppercase leading-4 tracking-[.1em] text-text-gray md:text-left">
                     de R$234,00 por:
                   </p>
-                  <p className="mt-2 text-center font-utopia-std text-5xl font-bold uppercase leading-[48px] tracking-[.0.5em] text-contextual-pink md:text-left">
+                  <p className="mt-2 text-center font-utopia-std text-5xl font-bold uppercase leading-[48px] tracking-[.5em] text-contextual-pink md:text-left">
                     R$180,00
                   </p>
                   <p className="mt-1 text-center font-utopia-std text-sm uppercase leading-4 tracking-[.1em] text-black md:text-left">
