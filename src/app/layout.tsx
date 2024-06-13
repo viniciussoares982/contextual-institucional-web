@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${utopiaStd.variable} ${spaceGrotesk.variable}`}
+      className={`${utopiaStd.variable} ${spaceGrotesk.variable} scroll-smooth`}
     >
       <body>
         <Header />

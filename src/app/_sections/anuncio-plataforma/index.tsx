@@ -52,7 +52,7 @@ export default function AnuncioPlataformaSection() {
                     <span className="text-contextual-pink">12x de R$15,00</span>
                   </p>
                   <div className="flex justify-center md:justify-start">
-                    <a className="mt-6 flex h-8 w-52 items-center justify-center rounded-md border border-none bg-contextual-pink text-center font-space-grotesk text-xs uppercase tracking-[.2em] text-black md:text-left">
+                    <a className="mt-6 flex h-12 w-52 items-center justify-center rounded-md border border-none bg-contextual-pink text-center font-space-grotesk text-xs uppercase tracking-[.2em] text-black md:text-left">
                       Entre na comunidade
                     </a>
                   </div>

@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function ConteudosExclusivosSection() {
   return (
-    <section className="bg-transparent">
+    <section id="conteudos-exclusivos" className="bg-transparent">
       <div className="rounded-2xl bg-black">
         <div className="max-w-8xl mx-auto flex h-full flex-col items-center justify-end px-7 py-9 sm:px-6 md:px-8 md:py-24">
           <div>
@@ -17,8 +17,8 @@ export default function ConteudosExclusivosSection() {
               <span className="block text-off-white md:inline">exclusivos</span>
             </h2>
             <p className="h-20 w-80 text-center font-space-grotesk text-sm font-normal leading-6 text-off-white md:w-[740px] md:text-xl md:leading-7">
-              Donec elementum, lectus et vehicula auctor, orci risus viverra
-              lacus, a posuere nisi nibh elementum nisl. In ac tincidunt justo.
+              Receba conteúdos exclusivos que irão aprimorar sua prática clínica
+              e eliminar sua insegurança. Aprenda a ser eficiente.
             </p>
           </div>
           <div className="pb-14 md:pb-20">
@@ -82,7 +82,7 @@ export default function ConteudosExclusivosSection() {
             </Marquee>
           </div>
           <div>
-            <a className="mb-4 flex h-8 w-52 items-center justify-center rounded-md bg-contextual-pink text-center font-space-grotesk text-xs uppercase tracking-[.2em] text-black md:mb-0 md:h-14 md:w-72 md:text-lg">
+            <a className="mb-4 flex h-12 w-52 cursor-pointer items-center justify-center rounded-md bg-contextual-pink text-center font-space-grotesk text-xs uppercase tracking-[.2em] text-black md:mb-0 md:h-14 md:w-72 md:text-lg lg:w-96">
               Entre na Comunidade
             </a>
           </div>
