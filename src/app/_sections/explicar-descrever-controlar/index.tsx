@@ -18,8 +18,7 @@ export default function ExplicarDescreverControlarSection() {
               que ilumina seu caminho para a eficiência e a excelência.”
             </h2>
             <p className="text-center font-space-grotesk text-xs uppercase tracking-[.2em] text-black">
-              Pellentesque porta mi vel
-              <span className="block">quam rhoncus</span>{' '}
+              Você terá suporte em cada passo
             </p>
           </div>
         </div>
